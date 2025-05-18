@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Management</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #e0e0e0;
+      padding: 20px;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .sidebar .logo {
+      text-align: center;
+    }
+    .sidebar .logo img {
+      width: 100px;
+    }
+    .sidebar button {
+      background-color: gray;
+      border: none;
+      padding: 10px;
+      margin: 10px 0;
+      color: white;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    .main {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    .header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+    }
+    .student-section {
+      background-color: #1e90ff;
+      margin-top: 10px;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .student-list {
+      background-color: #ddd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .student-entry {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+    .student-entry button {
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      padding: 5px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="School Logo" />
+      <p>registrar<br>registrar123@gmail.com</p>
+    </div>
+    <div>
+      <button>Students <span>🎓</span></button>
+      <button>Print out <span>🖶</span></button>
+    </div>
+    <button>Log out</button>
+  </div>
+
+  <div class="main">
+    <div class="header">Welcome, Maam/Sir</div>
+    <div class="student-section">Students <span style="margin-left: 10px;">🎓</span></div>
+    <div class="student-list">
+      <div class="student-entry">
+        <span>Dela Cruz, Juan</span>
+        <button>Manage</button>
+      </div>
+      <div class="student-entry">
+        <span>James, LeBron Raymone</span>
+        <button>Manage</button>
+      </div>
+      <div class="student-entry">
+        <span>Contis, Paulo</span>
+        <button>Manage</button>
+      </div>
+      <div class="student-entry">
+        <span>Faulkerson, Richard Reyes</span>
+        <button>Manage</button>
+      </div>
+      <div class="student-entry">
+        <span>Villanueva, Moskov</span>
+        <button>Manage</button>
+      </div>
+      <div class="student-entry">
+        <span>Barrameda, Atlas</span>
+        <button>Manage</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
 
